@@ -21,6 +21,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  h1, h2, h3 {
+    text-align: center;
+  }
+
 .flex-container-main {
   align-content: space-between;
   display: flex;
