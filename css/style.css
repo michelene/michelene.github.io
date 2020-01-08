@@ -78,38 +78,20 @@ a {
 a:hover {
   border-color: #ea2e49;
 }
+h1,
+section.intro div.summary p,
+div.requirements p:last-child {
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 section.intro div.summary p a,
-div.topic1 p a,
-div.topic2 p a {
-  color: #fff;
-}
-div.topic2 p a:hover {
-  border-color: #fff;
-}
 p,
 li {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5em;
   padding: 0.5em 0;
-}
-h1,
-section.intro div.summary p,
-div.topic4 p:last-child {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-section.intro div.summary p:last-child,
-div.topic4 p:last-child {
-  border-top: 1px solid #ea2e49;
-  margin-top: 1em;
-  padding-top: 1.5em;
-}
-em,
-strong {
-  font-style: normal;
-  font-weight: 400;
 }
 html {
   background: #daede2;
@@ -128,7 +110,7 @@ section.intro div.summary {
   color: #fff;
   padding: 15% 0;
 }
-section.intro div.preamble {
+section.intro div.about {
   background: rgb(255, 255, 255, 0.9);
   color: #333;
   margin-left: -30%;
@@ -158,25 +140,6 @@ footer {
 footer a {
   margin-right: 0.5em;
 }
-div.topic1 {
-  color: #fff;
-  padding: 5%;
-}
-div.topi2 {
-  background: rgb(234, 46, 73, 0.9);
-  color: #fff;
-  padding: 5%;
-}
-div.topic3 {
-  background: rgb(255, 255, 255, 0.9);
-  margin-top: 10%;
-  padding: 5%;
-}
-div.topic4 {
-  background: rgb(255, 255, 255, 0.9);
-  padding: 5%;
-}
-
 @media screen and (min-width: 550px) {
   h2 {
     font-size: 7em;
@@ -190,71 +153,68 @@ div.topic4 {
     top: 2.5%;
     width: 32.75%;
   }
-  div.extra1 {
-    background: rgb(51, 55, 69, 0.9);
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    top: 0;
-    width: 30%;
-    z-index: 1;
-  }
-  div.topic1 {
-    float: left;
-    width: 50%;
-  }
-  div.topic2 {
-    float: left;
-    width: 49%;
-  }
-  div.topic3 {
-    float: left;
-  }
-  div.topic4 {
-    float: left;
-  }
 }
 @media screen and (min-width: 650px) {
-  div.topic3 {
-    margin-top: 12%;
-    width: 30%;
+  body {
+    font-size: 80%;
   }
-  div.topic4 {
-    width: 69%;
+  footer {
+    font-size: 50%;
   }
 }
 @media screen and (min-width: 700px) {
   body {
     font-size: 90%;
   }
+  footer {
+    font-size: 60%;
+  }
 }
 @media screen and (min-width: 800px) {
   body {
     font-size: 100%;
+  }
+  footer {
+    font-size: 70%;
   }
 }
 @media screen and (min-width: 900px) {
   body {
     font-size: 110%;
   }
+  footer {
+    font-size: 80%;
+  }
 }
 @media screen and (min-width: 1500px) {
   body {
     font-size: 125%;
+  }
+  footer {
+    font-size: 90%;
   }
 }
 @media screen and (min-width: 1800px) {
   body {
     font-size: 150%;
   }
+  footer {
+    font-size: 100%;
+  }
 }
 @media screen and (min-width: 2100px) {
   body {
     font-size: 175%;
   }
+  footer {
+    font-size: 125%;
+  }
 }
 @media screen and (min-width: 2500px) {
   body {
     font-size: 200%;
+  }
+  footer {
+    font-size: 150%;
   }
 }
