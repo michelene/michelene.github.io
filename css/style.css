@@ -23,10 +23,6 @@ li {
 * {
   box-sizing: border-box;
 }
-::-moz-selection {
-  background: #333;
-  color: #fff;
-}
 ::selection {
   background: #333;
   color: #fff;
@@ -83,11 +79,11 @@ a:hover {
   border-color: #ea2e49;
 }
 section.intro div.summary p a,
-div.explanation p a,
-div.participation p a {
+div.topic1 p a,
+div.topic2 p a {
   color: #fff;
 }
-div.participation p a:hover {
+div.topic2 p a:hover {
   border-color: #fff;
 }
 p,
@@ -99,13 +95,13 @@ li {
 }
 h1,
 section.intro div.summary p,
-div.requirements p:last-child {
+div.topic4 p:last-child {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 section.intro div.summary p:last-child,
-div.requirements p:last-child {
+div.topic4 p:last-child {
   border-top: 1px solid #ea2e49;
   margin-top: 1em;
   padding-top: 1.5em;
@@ -162,21 +158,21 @@ footer {
 footer a {
   margin-right: 0.5em;
 }
-div.explanation {
+div.topic1 {
   color: #fff;
   padding: 5%;
 }
-div.participation {
+div.topi2 {
   background: rgb(234, 46, 73, 0.9);
   color: #fff;
   padding: 5%;
 }
-div.benefits {
+div.topic3 {
   background: rgb(255, 255, 255, 0.9);
   margin-top: 10%;
   padding: 5%;
 }
-div.requirements {
+div.topic4 {
   background: rgb(255, 255, 255, 0.9);
   padding: 5%;
 }
@@ -203,27 +199,27 @@ div.requirements {
     width: 30%;
     z-index: 1;
   }
-  div.explanation {
+  div.topic1 {
     float: left;
     width: 50%;
   }
-  div.participation {
+  div.topic2 {
     float: left;
     width: 49%;
   }
-  div.benefits {
+  div.topic3 {
     float: left;
   }
-  div.requirements {
+  div.topic4 {
     float: left;
   }
 }
 @media screen and (min-width: 650px) {
-  div.benefits {
+  div.topic3 {
     margin-top: 12%;
     width: 30%;
   }
-  div.requirements {
+  div.topic4 {
     width: 69%;
   }
 }
